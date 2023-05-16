@@ -1,0 +1,136 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Humanizer.Core/2.14.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Humanizer.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Humanizer.dll": {}
+        }
+      },
+      "Humanizer.Core.uk/2.14.1": {
+        "type": "package",
+        "dependencies": {
+          "Humanizer.Core": "[2.14.1]"
+        },
+        "resource": {
+          "lib/netstandard2.0/uk/Humanizer.resources.dll": {
+            "locale": "uk"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Humanizer.Core/2.14.1": {
+      "sha512": "lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
+      "type": "package",
+      "path": "humanizer.core/2.14.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "humanizer.core.2.14.1.nupkg.sha512",
+        "humanizer.core.nuspec",
+        "lib/net6.0/Humanizer.dll",
+        "lib/net6.0/Humanizer.xml",
+        "lib/netstandard1.0/Humanizer.dll",
+        "lib/netstandard1.0/Humanizer.xml",
+        "lib/netstandard2.0/Humanizer.dll",
+        "lib/netstandard2.0/Humanizer.xml",
+        "logo.png"
+      ]
+    },
+    "Humanizer.Core.uk/2.14.1": {
+      "sha512": "2uEfujwXKNm6bdpukaLtEJD+04uUtQD65nSGCetA1fYNizItEaIBUboNfr3GzJxSMQotNwGVM3+nSn8jTd0VSg==",
+      "type": "package",
+      "path": "humanizer.core.uk/2.14.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "humanizer.core.uk.2.14.1.nupkg.sha512",
+        "humanizer.core.uk.nuspec",
+        "lib/net6.0/uk/Humanizer.resources.dll",
+        "lib/netstandard1.0/uk/Humanizer.resources.dll",
+        "lib/netstandard2.0/uk/Humanizer.resources.dll",
+        "logo.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Humanizer.Core.uk >= 2.14.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\user\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\user\\source\\repos\\TextWithHumanizer\\TextWithHumanizer\\TextWithHumanizer.csproj",
+      "projectName": "TextWithHumanizer",
+      "projectPath": "C:\\Users\\user\\source\\repos\\TextWithHumanizer\\TextWithHumanizer\\TextWithHumanizer.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\source\\repos\\TextWithHumanizer\\TextWithHumanizer\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "Humanizer.Core.uk": {
+            "target": "Package",
+            "version": "[2.14.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.14, 5.0.14]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

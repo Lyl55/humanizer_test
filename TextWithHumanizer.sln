@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextWithHumanizer", "TextWithHumanizer\TextWithHumanizer.csproj", "{712867F2-E067-45A6-8F88-3830421B7AB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{712867F2-E067-45A6-8F88-3830421B7AB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{712867F2-E067-45A6-8F88-3830421B7AB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{712867F2-E067-45A6-8F88-3830421B7AB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{712867F2-E067-45A6-8F88-3830421B7AB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24348370-1BB2-4A19-B129-CDF4286469EF}
+	EndGlobalSection
+EndGlobal

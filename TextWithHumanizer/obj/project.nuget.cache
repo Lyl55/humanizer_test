@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "fLN53HE02wcF+G8qGa5f/D8jyEyc03NBc+JxN8Ky+Cu6ZrFm16jAceT/9jNgK+ZzlTxlIdqMtoyIaSgvW9aDEA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\TextWithHumanizer\\TextWithHumanizer\\TextWithHumanizer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\humanizer.core.uk\\2.14.1\\humanizer.core.uk.2.14.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
